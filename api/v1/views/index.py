@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3xx
 '''api status'''
 import models
@@ -23,4 +22,3 @@ def stuff():
     for key in todos:
         todos[key] = storage.count(todos[key])
     return jsonify(todos)
-
